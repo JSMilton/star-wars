@@ -24,6 +24,8 @@ struct LoginView: View {
     @State private var email = ""
     @State private var password = ""
     @State private var isLoading = false
+    @FocusState private var emailIsFocused: Bool
+    @FocusState private var passwordIsFocused: Bool
     
     var body: some View {
         if isLoading {
@@ -35,13 +37,20 @@ struct LoginView: View {
                     .textInputAutocapitalization(.never)
                     .keyboardType(.emailAddress)
                     .modifier(TextFieldStyle())
+                    .focused($emailIsFocused)
 
                 SecureField("Password", text: $password)
                     .modifier(TextFieldStyle())
+                    .focused($passwordIsFocused)
                 
                 Button() {
+                    emailIsFocused = false
+                    passwordIsFocused = false
+                    
                     Task {
-                        await handleLogin()
+                        await load(isLoading: $isLoading) {
+                            try await UserService().login(email: email, password: password)
+                        }
                     }
                 } label: {
                     Text("Login")
@@ -53,18 +62,6 @@ struct LoginView: View {
             }
             .padding(30)
         }
-    }
-    
-    func handleLogin() async {
-        isLoading = true
-        
-        do {
-            try await UserService().login(email: email, password: password)
-        } catch let error {
-            Errors.shared.errors.append(error)
-        }
-        
-        isLoading = false
     }
 }
 
