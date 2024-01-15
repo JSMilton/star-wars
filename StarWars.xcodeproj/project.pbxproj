@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A3C04CF2B544CDD002DCD5E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1A3C04CE2B544CDD002DCD5E /* Alamofire */; };
+		1A3C04D12B5451DB002DCD5E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3C04D02B5451DB002DCD5E /* Models.swift */; };
+		1A3C04D32B545962002DCD5E /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3C04D22B545962002DCD5E /* Endpoints.swift */; };
+		1A6A73EC2B0CB3FA00A20B46 /* ErrorViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6A73EB2B0CB3FA00A20B46 /* ErrorViewModifier.swift */; };
+		1A6A73F02B0CF7E700A20B46 /* LoadingTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6A73EF2B0CF7E700A20B46 /* LoadingTask.swift */; };
+		1A824D122B541DD2005C62D4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A824D112B541DD2005C62D4 /* LoginView.swift */; };
+		1A824D142B542CB3005C62D4 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A824D132B542CB3005C62D4 /* UserSession.swift */; };
+		1A824D162B543159005C62D4 /* LoginValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A824D152B543159005C62D4 /* LoginValidator.swift */; };
+		1A824D182B54382E005C62D4 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A824D172B54382E005C62D4 /* UserService.swift */; };
+		1AC36C5F2B553BC3000D9C52 /* LoginValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC36C5E2B553BC3000D9C52 /* LoginValidatorTests.swift */; };
+		1AC36C612B553CB8000D9C52 /* LoginValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A824D152B543159005C62D4 /* LoginValidator.swift */; };
+		1AC36C622B553D47000D9C52 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADF559D2AF12E8700FE9E6F /* Errors.swift */; };
+		1ACF6EA72AFB856900568E81 /* PersonListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF6EA62AFB856900568E81 /* PersonListRow.swift */; };
+		1ADF557C2AF0FA0500FE9E6F /* StarWarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADF557B2AF0FA0500FE9E6F /* StarWarsApp.swift */; };
+		1ADF55802AF0FA0600FE9E6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ADF557F2AF0FA0600FE9E6F /* Assets.xcassets */; };
+		1ADF55832AF0FA0600FE9E6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ADF55822AF0FA0600FE9E6F /* Preview Assets.xcassets */; };
+		1ADF55952AF1134D00FE9E6F /* PeopleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADF55942AF1134D00FE9E6F /* PeopleService.swift */; };
+		1ADF55992AF1136000FE9E6F /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADF55982AF1136000FE9E6F /* APIClient.swift */; };
+		1ADF559E2AF12E8700FE9E6F /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADF559D2AF12E8700FE9E6F /* Errors.swift */; };
+		1ADF55A02AF13C3800FE9E6F /* PersonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADF559F2AF13C3800FE9E6F /* PersonListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AC36C592B553A67000D9C52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ADF55702AF0FA0500FE9E6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ADF55772AF0FA0500FE9E6F;
+			remoteInfo = StarWars;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A3C04D02B5451DB002DCD5E /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		1A3C04D22B545962002DCD5E /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		1A6A73EB2B0CB3FA00A20B46 /* ErrorViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorViewModifier.swift; sourceTree = "<group>"; };
+		1A6A73EF2B0CF7E700A20B46 /* LoadingTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingTask.swift; sourceTree = "<group>"; };
+		1A824D112B541DD2005C62D4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		1A824D132B542CB3005C62D4 /* UserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
+		1A824D152B543159005C62D4 /* LoginValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginValidator.swift; sourceTree = "<group>"; };
+		1A824D172B54382E005C62D4 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		1AC36C552B553A67000D9C52 /* StarWarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC36C5E2B553BC3000D9C52 /* LoginValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginValidatorTests.swift; sourceTree = "<group>"; };
+		1ACF6EA62AFB856900568E81 /* PersonListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListRow.swift; sourceTree = "<group>"; };
+		1ADF55782AF0FA0500FE9E6F /* StarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADF557B2AF0FA0500FE9E6F /* StarWarsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsApp.swift; sourceTree = "<group>"; };
+		1ADF557F2AF0FA0600FE9E6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ADF55822AF0FA0600FE9E6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1ADF55942AF1134D00FE9E6F /* PeopleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleService.swift; sourceTree = "<group>"; };
+		1ADF55982AF1136000FE9E6F /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		1ADF559D2AF12E8700FE9E6F /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		1ADF559F2AF13C3800FE9E6F /* PersonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AC36C522B553A67000D9C52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADF55752AF0FA0500FE9E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3C04CF2B544CDD002DCD5E /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A3C04D42B549EE1002DCD5E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				1ADF55942AF1134D00FE9E6F /* PeopleService.swift */,
+				1ADF55982AF1136000FE9E6F /* APIClient.swift */,
+				1A824D172B54382E005C62D4 /* UserService.swift */,
+				1A3C04D22B545962002DCD5E /* Endpoints.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		1A3C04D52B549EF9002DCD5E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1ADF559F2AF13C3800FE9E6F /* PersonListView.swift */,
+				1ACF6EA62AFB856900568E81 /* PersonListRow.swift */,
+				1A824D112B541DD2005C62D4 /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1A3C04D62B549F10002DCD5E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1ADF559D2AF12E8700FE9E6F /* Errors.swift */,
+				1A824D132B542CB3005C62D4 /* UserSession.swift */,
+				1A3C04D02B5451DB002DCD5E /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1A3C04D72B549F29002DCD5E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				1A824D152B543159005C62D4 /* LoginValidator.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		1A3C04D82B549F43002DCD5E /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				1A6A73EB2B0CB3FA00A20B46 /* ErrorViewModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		1A3C04D92B549F4B002DCD5E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1A6A73EF2B0CF7E700A20B46 /* LoadingTask.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1AC36C562B553A67000D9C52 /* StarWarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AC36C5E2B553BC3000D9C52 /* LoginValidatorTests.swift */,
+			);
+			path = StarWarsTests;
+			sourceTree = "<group>";
+		};
+		1ADF556F2AF0FA0500FE9E6F = {
+			isa = PBXGroup;
+			children = (
+				1ADF557A2AF0FA0500FE9E6F /* StarWars */,
+				1AC36C562B553A67000D9C52 /* StarWarsTests */,
+				1ADF55792AF0FA0500FE9E6F /* Products */,
+				1ADF559A2AF1148600FE9E6F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1ADF55792AF0FA0500FE9E6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ADF55782AF0FA0500FE9E6F /* StarWars.app */,
+				1AC36C552B553A67000D9C52 /* StarWarsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ADF557A2AF0FA0500FE9E6F /* StarWars */ = {
+			isa = PBXGroup;
+			children = (
+				1A3C04D92B549F4B002DCD5E /* Extensions */,
+				1A3C04D82B549F43002DCD5E /* Modifiers */,
+				1A3C04D72B549F29002DCD5E /* Util */,
+				1A3C04D62B549F10002DCD5E /* Models */,
+				1A3C04D52B549EF9002DCD5E /* Views */,
+				1A3C04D42B549EE1002DCD5E /* API */,
+				1ADF557B2AF0FA0500FE9E6F /* StarWarsApp.swift */,
+				1ADF557F2AF0FA0600FE9E6F /* Assets.xcassets */,
+				1ADF55812AF0FA0600FE9E6F /* Preview Content */,
+			);
+			path = StarWars;
+			sourceTree = "<group>";
+		};
+		1ADF55812AF0FA0600FE9E6F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1ADF55822AF0FA0600FE9E6F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1ADF559A2AF1148600FE9E6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AC36C542B553A67000D9C52 /* StarWarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AC36C5D2B553A67000D9C52 /* Build configuration list for PBXNativeTarget "StarWarsTests" */;
+			buildPhases = (
+				1AC36C512B553A67000D9C52 /* Sources */,
+				1AC36C522B553A67000D9C52 /* Frameworks */,
+				1AC36C532B553A67000D9C52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AC36C5A2B553A67000D9C52 /* PBXTargetDependency */,
+			);
+			name = StarWarsTests;
+			productName = StarWarsTests;
+			productReference = 1AC36C552B553A67000D9C52 /* StarWarsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1ADF55772AF0FA0500FE9E6F /* StarWars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ADF55862AF0FA0600FE9E6F /* Build configuration list for PBXNativeTarget "StarWars" */;
+			buildPhases = (
+				1ADF55742AF0FA0500FE9E6F /* Sources */,
+				1ADF55752AF0FA0500FE9E6F /* Frameworks */,
+				1ADF55762AF0FA0500FE9E6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarWars;
+			packageProductDependencies = (
+				1A3C04CE2B544CDD002DCD5E /* Alamofire */,
+			);
+			productName = StarWars;
+			productReference = 1ADF55782AF0FA0500FE9E6F /* StarWars.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ADF55702AF0FA0500FE9E6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1AC36C542B553A67000D9C52 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 1ADF55772AF0FA0500FE9E6F;
+					};
+					1ADF55772AF0FA0500FE9E6F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1ADF55732AF0FA0500FE9E6F /* Build configuration list for PBXProject "StarWars" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1ADF556F2AF0FA0500FE9E6F;
+			packageReferences = (
+				1A3C04CD2B544CDD002DCD5E /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 1ADF55792AF0FA0500FE9E6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ADF55772AF0FA0500FE9E6F /* StarWars */,
+				1AC36C542B553A67000D9C52 /* StarWarsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AC36C532B553A67000D9C52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADF55762AF0FA0500FE9E6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADF55832AF0FA0600FE9E6F /* Preview Assets.xcassets in Resources */,
+				1ADF55802AF0FA0600FE9E6F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AC36C512B553A67000D9C52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC36C612B553CB8000D9C52 /* LoginValidator.swift in Sources */,
+				1AC36C622B553D47000D9C52 /* Errors.swift in Sources */,
+				1AC36C5F2B553BC3000D9C52 /* LoginValidatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADF55742AF0FA0500FE9E6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A824D182B54382E005C62D4 /* UserService.swift in Sources */,
+				1ADF557C2AF0FA0500FE9E6F /* StarWarsApp.swift in Sources */,
+				1A6A73F02B0CF7E700A20B46 /* LoadingTask.swift in Sources */,
+				1ADF55A02AF13C3800FE9E6F /* PersonListView.swift in Sources */,
+				1A3C04D32B545962002DCD5E /* Endpoints.swift in Sources */,
+				1A824D142B542CB3005C62D4 /* UserSession.swift in Sources */,
+				1A6A73EC2B0CB3FA00A20B46 /* ErrorViewModifier.swift in Sources */,
+				1ACF6EA72AFB856900568E81 /* PersonListRow.swift in Sources */,
+				1ADF55952AF1134D00FE9E6F /* PeopleService.swift in Sources */,
+				1ADF55992AF1136000FE9E6F /* APIClient.swift in Sources */,
+				1ADF559E2AF12E8700FE9E6F /* Errors.swift in Sources */,
+				1A824D122B541DD2005C62D4 /* LoginView.swift in Sources */,
+				1A824D162B543159005C62D4 /* LoginValidator.swift in Sources */,
+				1A3C04D12B5451DB002DCD5E /* Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AC36C5A2B553A67000D9C52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ADF55772AF0FA0500FE9E6F /* StarWars */;
+			targetProxy = 1AC36C592B553A67000D9C52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AC36C5B2B553A67000D9C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C77N9YEC5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jsm.StarWarsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarWars.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StarWars";
+			};
+			name = Debug;
+		};
+		1AC36C5C2B553A67000D9C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C77N9YEC5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jsm.StarWarsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarWars.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StarWars";
+			};
+			name = Release;
+		};
+		1ADF55842AF0FA0600FE9E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1ADF55852AF0FA0600FE9E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ADF55872AF0FA0600FE9E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StarWars/Preview Content\"";
+				DEVELOPMENT_TEAM = 5C77N9YEC5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jsm.StarWars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1ADF55882AF0FA0600FE9E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StarWars/Preview Content\"";
+				DEVELOPMENT_TEAM = 5C77N9YEC5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jsm.StarWars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AC36C5D2B553A67000D9C52 /* Build configuration list for PBXNativeTarget "StarWarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC36C5B2B553A67000D9C52 /* Debug */,
+				1AC36C5C2B553A67000D9C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ADF55732AF0FA0500FE9E6F /* Build configuration list for PBXProject "StarWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADF55842AF0FA0600FE9E6F /* Debug */,
+				1ADF55852AF0FA0600FE9E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ADF55862AF0FA0600FE9E6F /* Build configuration list for PBXNativeTarget "StarWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADF55872AF0FA0600FE9E6F /* Debug */,
+				1ADF55882AF0FA0600FE9E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1A3C04CD2B544CDD002DCD5E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1A3C04CE2B544CDD002DCD5E /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A3C04CD2B544CDD002DCD5E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1ADF55702AF0FA0500FE9E6F /* Project object */;
+}
