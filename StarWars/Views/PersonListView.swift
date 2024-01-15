@@ -21,8 +21,10 @@ struct PersonListView: View {
                 ProgressView()
             } else {
                 List {
-                    ForEach(people, id: \.name) { person in
-                        PersonListRow(person: person)
+                    Section {
+                        ForEach(people, id: \.name) { person in
+                            PersonListRow(person: person)
+                        }
                     }
                     
                     if isLoading {
